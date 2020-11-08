@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Arthur Camurça" />
+    <meta name="description" content="Um site para freelanchers" />
+    <meta name="keywords" content="website, freelancher, desenvolvedor" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://kit.fontawesome.com/d5c6bb15d4.js" crossorigin="anonymous"></script>
+    <title>Arthur Camurça</title>
+  </head>
+  <body>
+    <main>
+      <div class="nav-container">
+        <nav class="navbar">
+          <div class="brand">
+            <a href="#">Arthur Camurça</a>
+          </div>
+
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfólio</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a class="menu-btn" href="#">Orçamento</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="header">
+        <div class="header-card">
+          <h1 class="header-title">
+            A melhor maneira para <br />
+            você dar vida a suas ideias
+          </h1>
+          <p class="header-text">
+            Venha conhecer nosso trabalho entrando com contato <br />
+            com a gente clicando no botão abaixo.
+          </p>
+
+          <a class="header-button" href="#">Entre em contato</a>
+        </div>
+
+        <div class="header-image">
+          <img
+            width="498px"
+            src="./header-image.svg"
+            alt="Uma ilustração de um cara olhando uma página web"
+          />
+        </div>
+      </header>
+    </main>
+
+    <section class="portfolio">
+      <div class="portfolio-header">
+        <span>3 demos!</span>
+        <h2>Portfólio</h2>
+
+        <p>
+          Confira um pouco do meu trabalho. Estes são os sites que tenho
+          trabalhado.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <h3>LinkEnergy Solar - Website</h3>
+          <a href="https://linkenergysolar.com.br" target="_blank"
+            ><img
+              src="./linkenergysolar.png"
+              alt="LinkEnergy Solar"
+          /></a>
+        </div>
+        <div class="portfolio-card">
+          <h3>Educandário Américo Mesquita - Website</h3>
+          <a href="https://educandarioamericomesquita.com.br" target="_blank"
+            ><img
+              src="./educandario.png"
+              alt="Educandário Américo Mesquita"
+          /></a>
+        </div>
+        <div class="portfolio-card">
+          <h3>AC Web Development - Website</h3>
+          <a href="https://arthurcamurca.com.br" target="_blank"
+            ><img
+              src="./arthurcamurca.png"
+              alt="AC Web Development"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-header">
+        <h2>Contate-nos</h2>
+        <p>Entre em contato conosco através do nosso formulário.</p>
+      </div>
+
+      <form action="" method="post">
+        <input type="text" name="name" id="name" placeholder="Nome" autofocus required/>
+        <input type="email" name="email" id="email" placeholder="E-mail" required/>
+        <textarea
+          name="msg"
+          id="msg"
+          placeholder="Digite aqui sua mensagem para nós..."
+          maxlength="250"
+          minlength="10"
+          cols="40"
+          rows="4"
+          required
+
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="social-network">
+        <a href="https://www.facebook.com/arthur.camurca" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/arthurcamurca" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      Copyright&copy; 2020<a href="https://arthurcamurca.com.br">AC Web Development</a>
+    </footer>
+  </body>
+</html>

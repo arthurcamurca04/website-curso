@@ -1,0 +1,213 @@
+main {
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+  /* background-image: linear-gradient(to bottom right, #035ff0, #5112af); */
+}
+
+main div.nav-container .navbar {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main div.nav-container .navbar .brand a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+}
+
+main div.nav-container .navbar .menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main div.nav-container .navbar .menu li {
+  padding-right: 16px;
+}
+
+main div.nav-container .navbar .menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #eee;
+  transition: color 0.2s linear;
+}
+main div.nav-container .navbar .menu li a:hover {
+  color: #fff;
+}
+
+main .header {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .header .header-card .header-title {
+  color: white;
+  margin-bottom: 26px;
+}
+
+main .header .header-card .header-text {
+  color: #ddd;
+  margin-bottom: 26px;
+}
+
+main .header .header-card .header-button {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: all 0.2s linear;
+}
+
+main .header .header-button:hover {
+  opacity: 90%;
+}
+
+main .header .header-image {
+  margin-left: 32px;
+}
+
+section.portfolio .portfolio-header {
+  padding: 64px 0;
+  text-align: center;
+}
+
+section.portfolio .portfolio-header span {
+  background-color: aquamarine;
+  color: blue;
+  padding: 2px 5px;
+  border-radius: 25px;
+}
+
+section.portfolio .portfolio-header h2 {
+  color: #393939;
+}
+section.portfolio .portfolio-header p {
+  color: #aaa;
+}
+
+section.portfolio .portfolio-header h2,
+section.portfolio .portfolio-header p {
+  margin-top: 16px;
+}
+
+section.portfolio div.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+section.portfolio div.portfolio-grid div.portfolio-card {
+  margin: auto;
+  text-align: center;
+}
+
+section.portfolio div.portfolio-grid div.portfolio-card h3 {
+  color: #393939;
+}
+
+section.portfolio div.portfolio-grid div.portfolio-card a img {
+  height: 216px;
+  width: 313px;
+  margin-top: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s linear;
+}
+
+section.portfolio div.portfolio-grid div.portfolio-card a img:hover {
+  transform: translateY(-5px);
+}
+
+section.contact {
+  margin-top: 44px;
+  height: 570px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+section.contact i{
+  margin-top: 16px;
+  font-size: 30px;
+  color: #393939;
+}
+
+section.contact .contact-header {
+  padding: 44px 0;
+  text-align: center;
+}
+
+section.contact .contact-header h2 {
+  color: #393939;
+}
+section.contact .contact-header p {
+  color: #aaa;
+}
+
+section.contact .contact-header h2,
+section.contact .contact-header p {
+  margin-top: 16px;
+}
+
+section.contact form {
+  margin: auto;
+  width: 550px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+section.contact form input,
+section.contact form textarea {
+  padding: 20px 8px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+section.contact form textarea {
+  resize: none;
+}
+
+section.contact form input:focus-within,
+section.contact form textarea:focus-within {
+  border: 1px solid #2af598;
+}
+
+section.contact form button {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 10px 16px;
+  border-radius: 25px;
+  transition: all 0.2s linear;
+  border: none;
+}
+
+section.contact form button:hover {
+  opacity: 90%;
+}
+
+footer{
+  background-color: #393939;
+  color: white;
+  font-weight: 600;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
